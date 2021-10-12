@@ -545,7 +545,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -48,
-											"top": 656,
+											"top": 640,
 											"height": 13
 										},
 										{
@@ -554,9 +554,9 @@
 											"_parent": {
 												"$ref": "AAAAAAF8Wu+rCWUO/A4="
 											},
-											"font": "Arial;13;1",
+											"font": "Arial;13;3",
 											"left": 773,
-											"top": 679,
+											"top": 671,
 											"width": 74.064453125,
 											"height": 13,
 											"text": "Cours"
@@ -570,7 +570,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -48,
-											"top": 656,
+											"top": 640,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -584,14 +584,14 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -48,
-											"top": 656,
+											"top": 640,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 768,
-									"top": 672,
+									"top": 664,
 									"width": 84.064453125,
 									"height": 25,
 									"stereotypeLabel": {
@@ -628,7 +628,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 773,
-											"top": 702,
+											"top": 694,
 											"width": 74.064453125,
 											"height": 13,
 											"text": "-nom: String",
@@ -637,7 +637,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 768,
-									"top": 697,
+									"top": 689,
 									"width": 84.064453125,
 									"height": 23
 								},
@@ -652,7 +652,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 768,
-									"top": 720,
+									"top": 712,
 									"width": 84.064453125,
 									"height": 10
 								},
@@ -668,7 +668,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": -24,
-									"top": 328,
+									"top": 320,
 									"width": 10,
 									"height": 10
 								},
@@ -684,7 +684,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": -24,
-									"top": 328,
+									"top": 320,
 									"width": 10,
 									"height": 10
 								}
@@ -692,7 +692,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 768,
-							"top": 672,
+							"top": 664,
 							"width": 84.064453125,
 							"height": 58,
 							"nameCompartment": {
@@ -754,7 +754,7 @@
 											"top": 215,
 											"width": 282.17236328125,
 											"height": 13,
-											"text": "Sorcier"
+											"text": "Personne"
 										},
 										{
 											"_type": "LabelView",
@@ -1599,7 +1599,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 815,
-									"top": 528,
+									"top": 524,
 									"width": 46.26171875,
 									"height": 13,
 									"alpha": -0.5779019795920144,
@@ -1622,7 +1622,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 778,
-									"top": 573,
+									"top": 569,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1643,7 +1643,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 822,
-									"top": 574,
+									"top": 570,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1664,7 +1664,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 793,
-									"top": 640,
+									"top": 632,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -1685,7 +1685,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 779,
-									"top": 637,
+									"top": 629,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -1705,7 +1705,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 817,
-									"top": 644,
+									"top": 636,
 									"width": 6.5,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -1817,7 +1817,7 @@
 							"tail": {
 								"$ref": "AAAAAAF8Wu+rCWUNz8Y="
 							},
-							"points": "808:672;808:489",
+							"points": "808:664;808:489",
 							"nameLabel": {
 								"$ref": "AAAAAAF8WvMsA2Zuuag="
 							},
@@ -2263,7 +2263,7 @@
 										"$ref": "AAAAAAF8WvW3e2pqG6E="
 									},
 									"edgePosition": 2,
-									"text": "2..*"
+									"text": "1..*"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -2658,7 +2658,7 @@
 							"tail": {
 								"$ref": "AAAAAAF8Wv0Jl22cVbk="
 							},
-							"points": "909:832;909:788;804:788;804:729",
+							"points": "909:832;909:788;804:788;804:721",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF8Wv08a24zoVo="
@@ -3065,7 +3065,7 @@
 									"hostEdge": {
 										"$ref": "AAAAAAF8WwFSz3sZz+w="
 									},
-									"text": "1..* {unique}"
+									"text": "* {unique}"
 								},
 								{
 									"_type": "UMLQualifierCompartmentView",
@@ -3163,7 +3163,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 422,
-									"top": 807,
+									"top": 815,
 									"width": 74,
 									"height": 13,
 									"alpha": -1.0029524050753071,
@@ -3186,7 +3186,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 495,
-									"top": 896,
+									"top": 904,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3207,7 +3207,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 496,
-									"top": 851,
+									"top": 859,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3292,7 +3292,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 494,
-									"top": 880,
+									"top": 888,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -3312,7 +3312,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 497,
-									"top": 894,
+									"top": 902,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -3331,7 +3331,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 473,
-									"top": 858,
+									"top": 866,
 									"width": 6.5,
 									"height": 13,
 									"alpha": 0.8519656192091088,
@@ -3381,7 +3381,7 @@
 							"tail": {
 								"$ref": "AAAAAAF8WudLH2SiqvU="
 							},
-							"points": "496:769;496:872;469:872",
+							"points": "496:769;496:880;469:880",
 							"nameLabel": {
 								"$ref": "AAAAAAF8WwK5Nn5cX7w="
 							},
@@ -3947,7 +3947,7 @@
 							"tail": {
 								"$ref": "AAAAAAF8WyDgEaM4g38="
 							},
-							"points": "693:832;693:788;804:788;804:729",
+							"points": "693:832;693:788;804:788;804:721",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF8b/gbqb6x1zM="
@@ -4539,18 +4539,6 @@
 							"text": "CI : un élève peut uniquement être membre de l'équipe de quidditch de la maison à laquelle cet élève appartient."
 						},
 						{
-							"_type": "UMLTextView",
-							"_id": "AAAAAAF8dUSy4S/VFKk=",
-							"_parent": {
-								"$ref": "AAAAAAFF+qBtyKM79qY="
-							},
-							"font": "Arial;13;0",
-							"left": 928,
-							"top": 200,
-							"width": 153,
-							"height": 155
-						},
-						{
 							"_type": "UMLNoteView",
 							"_id": "AAAAAAF8dUUnxTHcM2E=",
 							"_parent": {
@@ -4939,7 +4927,8 @@
 							"visibility": "private",
 							"type": "String"
 						}
-					]
+					],
+					"isAbstract": true
 				},
 				{
 					"_type": "UMLClass",
@@ -4947,7 +4936,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Sorcier",
+					"name": "Personne",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -5137,7 +5126,7 @@
 								"reference": {
 									"$ref": "AAAAAAF8Wu2od2TKFgU="
 								},
-								"multiplicity": "2..*"
+								"multiplicity": "1..*"
 							},
 							"end2": {
 								"_type": "UMLAssociationEnd",
@@ -5269,7 +5258,7 @@
 								"reference": {
 									"$ref": "AAAAAAF8WwEPxHptNnM="
 								},
-								"multiplicity": "1..* {unique}"
+								"multiplicity": "* {unique}"
 							}
 						},
 						{
