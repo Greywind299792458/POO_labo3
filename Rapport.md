@@ -2,7 +2,7 @@
 
 ## Choix et hypothèses de travail
 ### Cours normaux et cours optionnels
-Il est écrit dans le cachier des charges qu'un élève "participe à des cours (au moins un)". Plus loin il est écrit que "les élèves peuvent s'inscrire à des cours optionnels (minimum 2)".
+Il est écrit dans le cahier des charges qu'un élève "participe à des cours (au moins un)". Plus loin il est écrit que "les élèves peuvent s'inscrire à des cours optionnels (minimum 2)".
 
 Nous avons pris comme hypothèse que le cahier des charges sous entend qu'il existe en fait deux types de cours : les cours "normaux" (chaque élève participe à au moins un cours normal) et les cours optionnels (chaque élève est inscrit à au moins deux cours optionnels).
 
@@ -22,7 +22,7 @@ Le cahier des charges demande que les élèves soient répartis dans les maisons
 
 ### Maison ayant le plus de points
 
-Le cahier des charges demande qu'il soit possible "d'obtenir la maison dans l'école qui a le plus de points". Pour cela nous avons prévu la méthode `maisonAyantLePlusDePoints()`, qui est une méthode statique de la classe Maison et qui renvoie une référence vers un objet de type Maison. Cette méthode devra lire le nombre de points de toutes les maisons et renvoyer une références vers la maison ayant le plus de points.
+Le cahier des charges demande qu'il soit possible "d'obtenir la maison dans l'école qui a le plus de points". Pour cela nous avons prévu la méthode `maisonAyantLePlusDePoints()`, qui est une méthode statique de la classe Maison et qui renvoie une référence vers un objet de type Maison. Cette méthode devra lire le nombre de points de toutes les maisons et renvoyer une référence vers la maison ayant le plus de points.
 
 Pour accéder aux maisons, cette méthode utilisera l'attribut statique `maisons: Maison[]` de la classe Maison qui est un tableau contenant des références vers toutes les maisons. (Le constructeur d'une maison doit ajouter la maison à ce tableau et le destructeur doit supprimer la maison de ce tableau)
 
@@ -43,7 +43,7 @@ Les informations qui concernent les équipes de Quidditch sont donc représenté
 
 ### Gagnant d'un match de Quidditch
 
-Nous avons pris comme hypothèse qu'un match de quidditch peut exister avant que le gagnant de ce match ne soit connu. Par exemple, on peut imaginer qu'on aimerait pouvoir créer un match de quidditch dans l'application dès le moment où ce match est planifié.
+Nous avons pris comme hypothèse qu'un match de Quidditch peut exister avant que le gagnant de ce match ne soit connu. Par exemple, on peut imaginer qu'on aimerait pouvoir créer un match de quidditch dans l'application dès le moment où ce match est planifié.
 
 Cela a comme conséquence que l'association "a gagné" entre Maison et MatchDeQuidditch a une cardinalité 0..1 du côté de Maison.
 
