@@ -17,9 +17,9 @@ Le cahier des charges demande que les élèves soient répartis dans les maisons
 
 ### Maison ayant le plus de points
 
-Le cahier des charges demande qu'il soit possible "d'obtenir la maison dans l'école qui a le plus de points". Pour cela nous avons prévu la méthode `maisonAyantLePlusDePoints()`, qui est une méthode statique de la classe Maison et qui renvoie une référence vers un objet de type Maison.
+Le cahier des charges demande qu'il soit possible "d'obtenir la maison dans l'école qui a le plus de points". Pour cela nous avons prévu la méthode `maisonAyantLePlusDePoints()`, qui est une méthode statique de la classe Maison et qui renvoie une référence vers un objet de type Maison. Cette méthode devra lire le nombre de points de toutes les maisons et renvoyer une références vers la maison ayant le plus de points.
 
-Pour accéder au nombre de points de chaque maison, cette méthode utilisera l'attribut statique `maisons` de la classe Maison qui est un tableau contenant des références vers toutes les maisons.
+Pour accéder aux maisons, cette méthode utilisera l'attribut statique `maisons: Maison[]` de la classe Maison qui est un tableau contenant des références vers toutes les maisons. (Le constructeur d'une maison doit ajouter la maison à ce tableau et le destructeur doit supprimer la maison de ce tableau)
 
 ### Ajouter ou retirer des points d'une maison
 
