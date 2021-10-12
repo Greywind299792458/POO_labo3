@@ -14,7 +14,9 @@ Il est encore écrit dans le cahier des charges "Les cours sont donnés par des 
 Le cahier des charges ne dit pas si un cours peut exister sans qu'aucun élève n'y soit inscrit. Nous avons pris comme hypothèse qu'il est possible qu'un cours n'ait aucun élève.
 
 ### Les maisons sont des instances de Maison
-Lors de l'utilisation de l'application, il y aura une instance de la classe Maison pour chacune des quatre maisons Gryffondor, Poufsouffle, Serdaigle et Serpentard. Comme notre schéma UML est un diagramme de classes, les noms Gryffondor, Poufsouffle, Serdaigle et Serpentard n'apparaissent pas dans le diagramme.
+Le cachier des charges demande que "il existe quatre maisons distinctes (Gryffondor, Poufsouffle, Serdaigle, Serpendard) dans l'école".
+
+Lors de l'utilisation de l'application, il y aura une instance de la classe Maison pour chacune des quatre maisons Gryffondor, Poufsouffle, Serdaigle et Serpentard. Comme notre schéma UML est un diagramme de classes, les noms Gryffondor, Poufsouffle, Serdaigle et Serpentard n'apparaissent pas explicitement dans le diagramme.
 
 ### Personnalité des élèves
 
