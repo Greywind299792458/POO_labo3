@@ -37,7 +37,7 @@ Le cahier des charges ne donne pas d'information sur le nombre de préfets d'une
 
 
 ### Équipes de Quidditch
-Initialement, nous avons voulu utiliser une classe ÉquipeDeQuidditch, qui aurait des associations avec les classes Maison, Élève et MatchDeQuidditch. Nous nous sommes rendus comptes que, étant donné que chaque maison possède exactement une équipe de Quidditch, l'ajout de cette classe apporte de la complexité inutile.
+Initialement, nous avons voulu utiliser une classe ÉquipeDeQuidditch, qui aurait des associations avec les classes Maison, Élève et MatchDeQuidditch. Nous nous sommes rendus compte que, étant donné que chaque maison possède exactement une équipe de Quidditch, l'ajout de cette classe apporte de la complexité inutile.
 
 Les informations qui concernent les équipes de Quidditch sont donc représentées dans notre schéma directement avec la classe Maison. L'assocation "appartient à l'équipe de quidditch de" entre Élève et Maison permet de représenter les membres de l'équipe de Quidditch d'une maison. Les associations entre MatchDeQuidditch et Maison permettent de représenter le fait que l'équipe de Quidditch d'une maison a participé à ou a gagné un match de quidditch.
 
