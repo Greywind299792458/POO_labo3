@@ -14,9 +14,9 @@ Il est encore écrit dans le cahier des charges "Les cours sont donnés par des 
 Le cahier des charges ne dit pas si un cours peut exister sans qu'aucun élève n'y soit inscrit. Nous avons pris comme hypothèse qu'il est possible qu'un cours n'ait aucun élève.
 
 ### Les maisons sont des instances de Maison
-Le cachier des charges demande que "il existe quatre maisons distinctes (Gryffondor, Poufsouffle, Serdaigle, Serpendard) dans l'école".
+Le cahier des charges demande que "il existe quatre maisons distinctes (Gryffondor, Poufsouffle, Serdaigle, Serpentard) dans l'école".
 
-Lors de l'utilisation de l'application, il y aura une instance de la classe Maison pour chacune des quatre maisons Gryffondor, Poufsouffle, Serdaigle et Serpentard. Comme notre schéma UML est un diagramme de classes, les noms Gryffondor, Poufsouffle, Serdaigle et Serpentard n'apparaissent pas explicitement dans le diagramme.
+Lors de l'utilisation de l'application, il y aura une instance de la classe Maison pour chacune des quatre maisons Gryffondor, Poufsouffle, Serdaigle et Serpentard. Comme notre diagramme UML est un diagramme de classes, les noms Gryffondor, Poufsouffle, Serdaigle et Serpentard n'apparaissent pas explicitement dans le diagramme.
 
 ### Personnalité des élèves
 
@@ -33,9 +33,9 @@ Le cahier des charges ne donne pas d'information sur le nombre de préfets d'une
 
 
 ### Équipes de Quidditch
-Initialement, nous avons voulu utiliser une classe ÉquipeDeQuidditch, qui aurait des associations avec les classes Maison, Élève et MatchDeQuidditch. Nous nous sommes rendus compte que, étant donné que chaque maison possède exactement une équipe de Quidditch, l'ajout de cette classe apporte de la complexité inutile.
+Initialement, nous avons voulu utiliser une classe ÉquipeDeQuidditch, qui aurait des associations avec les classes Maison, Élève et MatchDeQuidditch. Nous nous sommes rendu compte que, étant donné que chaque maison possède exactement une équipe de Quidditch, l'ajout de cette classe apporte de la complexité inutile.
 
-Les informations qui concernent les équipes de Quidditch sont donc représentées dans notre schéma directement avec la classe Maison. L'assocation "appartient à l'équipe de quidditch de" entre Élève et Maison permet de représenter les membres de l'équipe de Quidditch d'une maison. Les associations entre MatchDeQuidditch et Maison permettent de représenter le fait que l'équipe de Quidditch d'une maison a participé à ou a gagné un match de quidditch.
+Les informations qui concernent les équipes de Quidditch sont donc représentées dans notre diagramme directement avec la classe Maison. L'association "appartient à l'équipe de Quidditch de" entre Élève et Maison permet de représenter les membres de l'équipe de Quidditch d'une maison. Les associations entre MatchDeQuidditch et Maison permettent de représenter le fait que l'équipe de Quidditch d'une maison a participé à ou a gagné un match de Quidditch.
 
 ### Gagnant d'un match de Quidditch
 
