@@ -1,5 +1,5 @@
 # Rapport labo 3 POO - Damien Maier, Elliot Ganty
-
+![](poudlard.jpg)
 ## Choix et hypothèses de travail
 ### Cours normaux et cours optionnels
 Il est écrit dans le cahier des charges qu'un élève "participe à des cours (au moins un)". Plus loin il est écrit que "les élèves peuvent s'inscrire à des cours optionnels (minimum 2)".
@@ -21,12 +21,6 @@ Lors de l'utilisation de l'application, il y aura une instance de la classe Mais
 ### Personnalité des élèves
 
 Le cahier des charges demande que les élèves soient répartis dans les maisons "en fonction de leurs personnalités". Maison possède un attribut traitsDePersonnalitéAssociés de type String qui permet de représenter les traits de personnalité qui feront qu'un élève sera placé dans une maison.
-
-### Maison ayant le plus de points
-
-Le cahier des charges demande qu'il soit possible "d'obtenir la maison dans l'école qui a le plus de points". Pour cela nous avons prévu la méthode `maisonAyantLePlusDePoints()`, qui est une méthode statique de la classe Maison et qui renvoie une référence vers un objet de type Maison. Cette méthode devra lire le nombre de points de toutes les maisons et renvoyer une référence vers la maison ayant le plus de points.
-
-Pour accéder aux maisons, cette méthode utilisera l'attribut statique `maisons: Maison[]` de la classe Maison qui est un tableau contenant des références vers toutes les maisons. (Le constructeur d'une maison doit ajouter la maison à ce tableau et le destructeur doit supprimer la maison de ce tableau)
 
 ### Ajouter ou retirer des points d'une maison
 
@@ -53,5 +47,10 @@ Cela a comme conséquence que l'association "a gagné" entre Maison et MatchDeQu
 
 Les trois derniers points du cahier des charges demandent qu'on puisse "lister" ou "obtenir" différentes informations. Cela n'indique pas clairement si nous devons prévoir des méthodes qui renvoient des références vers les objets demandés, ou des méthodes qui affichent les informations demandées.
 
-Nous avons pris comme hypothèse qu'il fallait suivre la première option.
+Nous avons pris comme hypothèse qu'il fallait prévoir des méthodes qui renvoient des références vers les objets demandés. Nous avons donc prévu la méthode `maisonGagnante(): Maison` dans la classe MatchDeQuidditch et les méthodes `élèves(): Élève[]` et `maisonAyantLePlusDePoints(): Maison` dans la classe Maison.
 
+### Maison ayant le plus de points
+
+Le cahier des charges demande qu'il soit possible "d'obtenir la maison dans l'école qui a le plus de points". Pour cela nous avons prévu la méthode `maisonAyantLePlusDePoints()`, qui est une méthode statique de la classe Maison et qui renvoie une référence vers un objet de type Maison. Cette méthode devra lire le nombre de points de toutes les maisons et renvoyer une référence vers la maison ayant le plus de points.
+
+Pour accéder aux maisons, cette méthode utilisera l'attribut statique `maisons: Maison[]` de la classe Maison qui est un tableau contenant des références vers toutes les maisons. (Le constructeur d'une maison doit ajouter la maison à ce tableau et le destructeur doit supprimer la maison de ce tableau).
